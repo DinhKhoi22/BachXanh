@@ -1,0 +1,176 @@
+/* PC >= 1024px */
+@media (min-width: 64em){
+    .menu-moblie-btn{
+        display: none;
+    }
+}
+
+/* Table and mobile */
+@media (max-width: 63.9375em){
+    #content .content__container--main{
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .main-content .content-text{
+        margin-left: 0;
+    }
+
+    .main-content .content-text .desc{
+        padding: 0 6px;
+    }
+
+    .content__container--main .main-content{
+        display: block;  
+        padding-left: 0;
+    }
+
+    .content-text .content-stay{
+        padding-top: 40px;
+    }
+
+    .main-content .content-img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .main-content .content-img .content-img-group{
+        width: 100%;
+        margin-right: -20px;
+    }
+    
+    .content__container-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__room-container{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .content__room-container .room-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content__container-img__room .read-more__btn{
+        width: 50%;
+        height: 50px;
+    }
+
+    .content__container-img__room .read-more__btn span{
+        width: 100%;
+        height: 100%;
+        font-size: 2.6rem;
+        line-height: 50px;
+    } 
+
+    .content__container-map-pic{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+}
+
+/* Ipad 740px < x < 1023px */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .menu-moblie-btn{
+        display: none;
+    }
+
+}
+
+/* Mobile < 740px */
+@media (max-width: 46.1875em){    
+    #navbar > li{
+        display: block;
+    }
+
+    .header-home .header-icon{
+        display: none;
+    }
+
+    .slider .slider-item{
+        height: 100vmin;
+    }
+
+    .slider-text{
+        margin-bottom: 10%;
+    }
+
+    .slider-text .slider-homestay{
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    .slider-text .slider-description{
+        font-size: 2.5rem;
+    }
+
+    .owl-dots{
+        display: none;
+    }
+
+    .content-text .content-stay{
+        font-size: 5rem;
+    }
+
+    .main-content .content-text .desc{
+        font-size: 1.6rem;
+        padding: 0 30px 20px;     
+    }
+
+    .main-content .content-img{
+        height: 100vmin;
+    }
+
+    .main-content .content-img .content-img-group{
+        position: relative;
+        top: -9rem;
+        width: 100%;
+        object-fit: contain;
+        border: none;
+    }
+
+    .content__container-img__room .read-more__btn{
+        height: 40px;
+    }
+
+    .content__container-img__room .read-more__btn span{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .footer__container-text .footer__container--heading{
+        font-size: 3.2rem;
+    }
+
+    .footer__container .footer__container-contact{
+        display: block;
+        padding: 0 15px;
+    }
+
+    .footer__container-contact .contact-phone-call{
+        margin-bottom: 10px;
+    }
+
+    .phone-contact-number {
+        margin-left: 28px;
+    }
+
+    .footer__container-contact .socials-contact, 
+    .footer__container-contact .contact-phone-call{
+        font-size: 2.2rem;
+    }
+
+    .socials-contact__text .socials-contact__icon{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .socials-contact__icon a{
+        margin-right: 20px;
+        margin-left: 28px;
+    }
+}
