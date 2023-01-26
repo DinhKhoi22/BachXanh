@@ -21,7 +21,7 @@
 }
 
 .navbar__item{
-    width: 15%;
+    width: 12%;
 }
 
 #navbar li{
@@ -387,7 +387,7 @@
 }
 
 #footer .footer__container{
-    padding-top: 80px;
+    padding-top: 68px;
 }
 
 .footer__container .footer__container-text{
@@ -412,7 +412,7 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer__container-contact .socials-contact,

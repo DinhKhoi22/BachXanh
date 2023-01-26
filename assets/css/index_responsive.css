@@ -71,6 +71,10 @@
         margin-top: 0;
         margin-bottom: 40px;
     }
+
+    .navbar__item{
+        width: 16%;
+    }
 }
 
 /* Ipad 740px < x < 1023px */
@@ -140,6 +144,14 @@
     .content__container-img__room .read-more__btn span{
         font-size: 2rem;
         line-height: 40px;
+    }
+
+    #footer{
+        margin-top: -46px;
+    }
+
+    #footer .footer__container{
+        padding-top: 40px;
     }
 
     .footer__container-text .footer__container--heading{

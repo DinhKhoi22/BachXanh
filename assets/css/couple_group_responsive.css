@@ -1,0 +1,52 @@
+/* PC >= 1024px */
+@media (min-width: 64em){
+
+}
+
+/* Tablet and mobile */
+@media (max-width: 63.9375em){
+    .content-container__menu{
+        display: none;
+    }
+
+    .grid__column-10 {
+        display: block;
+        margin: 1px;
+        width: 98.5%;
+    }
+
+    .content__container-map-pic2{
+        height: auto;
+    }
+
+    .content__container-map-pic2 .map-pic{
+        height: 76%;
+    }
+
+    #footer .footer__container {
+        padding-top: 60px;
+    }
+}
+
+/* Mobile < 740px */
+@media (max-width: 46.1875em){
+    .home__wrapper{
+        height: auto;
+    }
+
+    .home__wrapper-item{
+        padding: 20px 0;
+    }
+
+    .grid__column-10{
+        width: 97.5%;
+    }
+
+    .home__wrapper-item__container .Bungalow1 {
+        font-size: 3.2rem;
+        font-family: 'Playfair Display', serif;
+        color: var(--text-color);
+        margin-bottom: 12px;
+        line-height: 4rem;
+    }
+}

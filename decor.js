@@ -5,7 +5,7 @@ var headerHeight = header.clientHeight;
 mobileMenu.onclick = function(){
     var isClosed = header.clientHeight === headerHeight;
     if(isClosed){
-        header.style.height = '300px'
+        header.style.height = '50%'
     }
     else{
         header.style.height = null
