@@ -1,0 +1,24 @@
+/* Mobile < 740px */
+@media (max-width: 46.1875em){
+    .content__container-desc {
+        text-align: center;
+        font-size: 3.6rem;
+        padding: 30px 0;
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 0.4rem;
+        line-height: 5rem;
+    }
+    
+    .content__container-subdesc{
+        margin-top: 30px;
+        font-size: 4rem;
+    }
+
+    .content__container-pics-gr1,
+    .content__container-pics-gr2,
+    .content__container-pics-gr3{
+        display: block;
+    }
+}

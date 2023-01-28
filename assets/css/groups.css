@@ -1,0 +1,11 @@
+.content__container-pics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content__container-pic{
+    margin: 10px 0;
+    width: 50%;
+    padding: 0 10px;
+}

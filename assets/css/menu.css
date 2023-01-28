@@ -20,7 +20,7 @@
 }
 
 .content__container-pics{
-    display: inline-flex;
+    display: flex;
 }
 
 .content__container-pic{

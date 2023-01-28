@@ -1,0 +1,9 @@
+.content__container-pics{
+    display: block;
+}
+
+.content__container-pics-gr1,
+.content__container-pics-gr2,
+.content__container-pics-gr3{
+    display: flex;
+}

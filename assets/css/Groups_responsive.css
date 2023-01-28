@@ -1,0 +1,10 @@
+/* Mobile < 740px */
+@media (max-width: 46.1875em){
+    .content__container-pics{
+        display: block;
+    }
+    
+    .content__container-pic{
+        width: 100%;        
+    }
+}
