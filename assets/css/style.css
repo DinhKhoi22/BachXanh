@@ -304,10 +304,10 @@
 }
 
 .read-more__btn{
+    background-color: var(--main-color);
     font-size: 17px;
     position: relative;
     border: none;
-    box-shadow: none;
     width: 130px;
     height: 40px;
     line-height: 4.2rem;
@@ -381,7 +381,7 @@
 
 
 #footer{
-    margin-top: -55px;
+    margin-top: -60px;
     height: 400px;
     background-color: var(--background-color);
 }

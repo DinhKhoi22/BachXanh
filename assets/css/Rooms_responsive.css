@@ -21,4 +21,8 @@
     .content__container-pics-gr3{
         display: block;
     }
+
+    .content__container-map-desc{
+        font-size: 3.2rem;
+    }
 }
