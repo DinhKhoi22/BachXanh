@@ -89,6 +89,7 @@
 @media (max-width: 46.1875em){    
     #navbar > li{
         display: block;
+        width: 100%;
     }
 
     .header-home .header-icon{
