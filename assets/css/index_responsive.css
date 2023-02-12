@@ -75,6 +75,10 @@
     .navbar__item{
         width: 16%;
     }
+
+    .chat-inner__icon{
+        display: none;
+    }
 }
 
 /* Ipad 740px < x < 1023px */
@@ -82,7 +86,6 @@
     .menu-moblie-btn{
         display: none;
     }
-
 }
 
 /* Mobile < 740px */
@@ -185,5 +188,9 @@
     .socials-contact__icon a{
         margin-right: 20px;
         margin-left: 28px;
+    }
+
+    .chat-inner__icon{
+        display: none;
     }
 }
