@@ -81,7 +81,7 @@
     }
 }
 
-/* Ipad 740px < x < 1023px */
+/* Ipad 740px < x < 1024px */
 @media (min-width: 46.25em) and (max-width: 63.9375em){
     .menu-moblie-btn{
         display: none;
